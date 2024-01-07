@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1B244A;
+    padding: 50px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+h3{
+    font-family: Verdana;
+}
+
+p{
+    font-size: 3rem;
+    color: red;
+    background-color: black;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+#home,#guest{
+    margin: 50px;
+}
+
+.buttons, p, button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+button{
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding : 10px;
+    color : white;
+}
+
+button:hover{
+    cursor: pointer;
+}
